@@ -1,5 +1,5 @@
-def hello():
+def hi():
     print("Hello World!")
 
 
-hello()
+hi()
