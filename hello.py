@@ -1,7 +1,6 @@
-def runningSum(self, nums):
-    ans = [1, 2, 3]
-    tmp = 0
-    for i in nums:
-        tmp += 1
-        ans.append(tmp)
-    return ans 
+a = [7, 11, 23, 34, 56, 89, 1]
+b = [23, 34]
+result = []
+
+result = [i for i in a if i in b]
+print(result)
