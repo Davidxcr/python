@@ -1,7 +1,6 @@
-print_int = range(1, 51)
+print_int = range(1, 100)
 
 for num in print_int:
-    print(num)
 
     if num % 3 == 0 and num % 5 == 0:
         print("FizzBuzz")
