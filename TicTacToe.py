@@ -1,15 +1,15 @@
 #Tic Tac Toe Game in Python.
 
-#Game Board
+#Game Board.
 board = ["-", "-", "-",
          "-", "-", "-",
          "-", "-", "-",]
 
-#If game is still going
+#If the game is still going
 
 game_still_going = True
 
-#Who won? or Tie?
+#Is there a winner?
 winner = None
 
 #who's turn is it?
@@ -21,7 +21,7 @@ def display_board():
   print(board[3] + " | " + board[4] + " | " + board[5] + " | ")
   print(board[6] + " | " + board[7] + " | " + board[8] + " | ")
 
-
+#Gameplay function
 def play_game():
 
   #Display the initial board
