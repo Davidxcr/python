@@ -1,4 +1,4 @@
-# ------Global Variables ------#
+#Tic Tac Toe Game in Python.
 
 #Game Board
 board = ["-", "-", "-",
@@ -54,6 +54,9 @@ def handle_turn(player):
     position = input("Invalid input. Choose a position from 1-9:  ")
 
   position = int(position) - 1
+
+  if board[position] != "-":
+    print("You can't go there. Go again.")
 
   board[position] = player
   display_board()
