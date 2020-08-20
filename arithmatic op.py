@@ -1,10 +1,7 @@
-class Person:
-    def __init__ (self, name,):
-        self.name = name
-        self.talk = talk
-        
-        
-        
-David = Person.name
+if __name__ == '__main__':
+    x = int(input())
+    y = int(input())
+    z = int(input())
+    n = int(input())
 
-print(Person.name)
+    
