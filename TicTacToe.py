@@ -46,7 +46,7 @@ while game_still_going:
 # Handle single player turn
 def handle_turn(player):
 
-    print(player + "'s turn")
+    print(player + "'s turn") 
     position = input("Choose a position from 1-9: ")
 
 # Make user input a valid position
