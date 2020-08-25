@@ -1,5 +1,6 @@
+
 global listStudents
-listStudents = ["David Oluwafemi", "Femi Olatunji"]
+listStudents = ["David", "Femi"]
 
 def manageStudent():
 
@@ -40,3 +41,34 @@ def manageStudent():
             print("New student {} added successfully\n".format(newStudent))
             for students in listStudents:
                 print("{}".format(students))
+    elif userInput == 3:
+        searchStudent = input("Enter a student name to search: ")
+        if searchStudent in listStudents:
+            print("Record found of Student {}".format(searchStudent))
+        else:
+            print("No recored found of student {}".format(searchStudent))
+
+    elif userInput == 4:
+        removeStudent = input("Enter student name to remove: ")
+        if removeStudent in listStudents:
+            listStudents.remove(removeStudent)
+            print("Student {} successfully removed".format(removeStudent))
+            for students in listStudents:
+                print("{}".format(students))
+        else:
+            print("No record found of this student {}".format(removeStudent))
+    
+    elif userInput < 1 or userInput > 4:
+        print("Please enter a valid option")
+    
+manageStudent()
+
+def runAgain():
+    again = input("Do you want to run the program again Y/N: ")
+    if runAgain.lower == 'y':
+        manageStudent()
+        runAgain()
+    else:
+        quit
+    
+runAgain()
