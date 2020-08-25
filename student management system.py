@@ -2,7 +2,7 @@ import os
 import platform
 
 global listStudents
-listStudents = ["David", "Femi"]
+listStudents = ["David", "Femi", "Jim", "Tom"]
 
 def manageStudent():
 
