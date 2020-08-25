@@ -1,3 +1,5 @@
+import os
+import platform
 
 global listStudents
 listStudents = ["David", "Femi"]
@@ -65,7 +67,7 @@ manageStudent()
 
 def runAgain():
     again = input("Do you want to run the program again Y/N: ")
-    if runAgain.lower == 'y':
+    if again == 'y':
         manageStudent()
         runAgain()
     else:
