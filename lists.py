@@ -1,4 +1,8 @@
 
+from array import *
 
-lists = ["1", "2", "3", "4", "1", "2", "1"]
-print(lists)
+arr = array('i', [1, 2, 3, 4, 5])
+print(arr)
+
+arr.reverse()
+print(arr)
