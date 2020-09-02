@@ -1,0 +1,7 @@
+Name, Score
+Joe Besser, 70
+Curly Joe DeRita, 0
+Larry Fine, 80
+Curly Howard, 65
+Moe Howard, 100
+Shemp Howard, 85
