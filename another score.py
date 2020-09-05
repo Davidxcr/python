@@ -34,9 +34,9 @@ def grade_scores():
 
 
 def displayscore():
-    all_scores =  grade_scores()
+    all_scores = grade_scores()
     print()
-    print("High Score: ", all_scores[0])
+    print("High Score: ", all_scores([0]))
     print()
     print("Average: ", all_scores[1])
     print()
@@ -44,8 +44,5 @@ def displayscore():
     print()
 
 
-
-def main():
-    displayscore()
-
-main()
+# Main
+displayscore()
