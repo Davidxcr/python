@@ -1,11 +1,7 @@
-try:
-    fhand = open('scores.txt', 'r')
-except:
-    print("File does not exist")
 
+fhand = open('scores.txt', 'r')
 
 score_array = []
-
 
 def scores_to_array():
     for row in fhand:

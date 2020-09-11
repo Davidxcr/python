@@ -1,18 +1,13 @@
-try:
-    fhand = open('scores.txt', 'r')
-except:
-    print("File does not exist")
-
+fhand = open('scores.txt', 'r')
 
 score_array = []
 
 
 def scores_to_array():
     for row in fhand:
-        print()
-        print(row)
         row = row.rstrip().split(',')
         score_array.append(int(row[1]))
+    print(score_array)
 
     print()
 
